@@ -40,7 +40,7 @@ Formulaire multi-sections avec champs texte, boutons radio, menu déroulant, zon
 
 ## Démo en ligne
 
-[Voir le projet sur GitHub Pages](https://docaridr.github.io/registration-form-freecodecamp/)
+[Voir le projet sur GitHub Pages](https://docaridr.github.io/Registration-Form-freecodecamp/)
 
 ---
 
