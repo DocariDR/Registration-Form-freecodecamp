@@ -87,11 +87,16 @@
           <textarea id="bio" name="bio" rows="3" placeholder="I like coding on the beach..."></textarea>
         </label>
       </fieldset>
-      <label for="terms-and-conditions">
-        <input name="terms" class="inline" id="terms-and-conditions" type="checkbox" required />
-        I accept the <a href="https://www.freecodecamp.org/news/terms-of-service">terms and conditions</a>
-      </label>
-      <input type="submit" value="Submit" />
+
+      <div class="form-footer">
+        <label for="terms-and-conditions" class="checkbox-label">
+          <input name="terms" id="terms-and-conditions" type="checkbox" required />
+          <span class="checkbox-custom"></span>
+          <span>I agree to the <a href="https://www.freecodecamp.org/news/terms-of-service" target="_blank" rel="noopener">terms and conditions</a></span>
+        </label>
+        <input type="submit" value="Submit" />
+      </div>
+
     </form>
   </main>
 </body>
