@@ -48,9 +48,19 @@
         </label>
       </fieldset>
       <fieldset>
-        <legend>Account type (required)</legend>
-        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" value="personal" class="inline" checked /> Personal</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" value="business" class="inline" /> Business</label>
+        <legend>Account type</legend>
+        <div class="radio-group">
+          <label for="personal-account" class="radio-card">
+            <input id="personal-account" type="radio" name="account-type" value="personal" checked />
+            <span class="radio-icon">👤</span>
+            <span class="radio-label">Personal</span>
+          </label>
+          <label for="business-account" class="radio-card">
+            <input id="business-account" type="radio" name="account-type" value="business" />
+            <span class="radio-icon">🏢</span>
+            <span class="radio-label">Business</span>
+          </label>
+        </div>
       </fieldset>
       <fieldset>
         <legend>Profile details</legend>
