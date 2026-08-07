@@ -66,10 +66,10 @@
         <legend>Profile details</legend>
         <label for="profile-picture">
           <span class="label-text">Profile picture</span>
-          <input id="profile-picture" type="file" name="file" />
+          <input id="profile-picture" type="file" name="file" accept="image/*" />
         </label>
         <label for="age">
-          <span class="label-text">Age</span>
+          <span class="label-text">Age <span class="hint">(13 years minimum)</span></span>
           <input id="age" type="number" name="age" min="13" max="120" placeholder="—" />
         </label>
         <label for="referrer">
@@ -83,7 +83,7 @@
           </select>
         </label>
         <label for="bio">
-          <span class="label-text">Short bio</span>
+          <span class="label-text">Short bio <span class="hint">(optional)</span></span>
           <textarea id="bio" name="bio" rows="3" placeholder="I like coding on the beach..."></textarea>
         </label>
       </fieldset>
