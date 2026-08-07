@@ -25,7 +25,8 @@
       <p>Join the community. It only takes a minute.</p>
     </header>
 
-    <form method="post" action='https://register-demo.freecodecamp.org'>
+    <form method="post" action="https://register-demo.freecodecamp.org">
+
       <fieldset>
         <legend>Personal info</legend>
         <div class="field-grid">
@@ -44,9 +45,18 @@
         </label>
         <label for="new-password">
           <span class="label-text">Password</span>
-          <input id="new-password" name="new-password" type="password" placeholder="8+ characters" pattern="[a-z0-5]{8,}" title="Minimum 8 characters, lowercase letters and numbers 0-5 only" required />
+          <input
+            id="new-password"
+            name="new-password"
+            type="password"
+            placeholder="8+ characters"
+            pattern="[a-z0-5]{8,}"
+            title="Minimum 8 characters, lowercase letters and numbers 0-5 only"
+            required
+          />
         </label>
       </fieldset>
+
       <fieldset>
         <legend>Account type</legend>
         <div class="radio-group">
@@ -62,6 +72,7 @@
           </label>
         </div>
       </fieldset>
+
       <fieldset>
         <legend>Profile details</legend>
         <label for="profile-picture">
@@ -94,10 +105,12 @@
           <span class="checkbox-custom"></span>
           <span>I agree to the <a href="https://www.freecodecamp.org/news/terms-of-service" target="_blank" rel="noopener">terms and conditions</a></span>
         </label>
-        <input type="submit" value="Submit" />
+        <button type="submit">Create account →</button>
       </div>
 
     </form>
+
   </main>
+
 </body>
 </html>
