@@ -160,6 +160,14 @@ select {
   appearance: none;
 }
 
+input:not([type="radio"]):not([type="checkbox"]):not([type="file"]):not([type="submit"]):focus,
+textarea:focus,
+select:focus {
+  border-color: var(--border-focus);
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
 input::placeholder,
 textarea::placeholder {
   color: var(--text-3);
