@@ -140,18 +140,29 @@ label {
   font-weight: 400;
 }
 
-input,
+input:not([type="radio"]):not([type="checkbox"]):not([type="file"]):not([type="submit"]),
 textarea,
 select {
-  margin: 10px 0 0 0;
   width: 100%;
-  min-height: 2em;
+  padding: 0.65rem 0.9rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-1);
+  font-family: inherit;
+  font-size: 0.9rem;
+  transition:
+    border-color var(--transition),
+    box-shadow var(--transition),
+    background var(--transition);
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
-input,
-textarea {
-  background-color: #0a0a23;
-  color: #ffffff;
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-3);
 }
 
 .inline {
