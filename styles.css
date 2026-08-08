@@ -107,6 +107,19 @@ fieldset + fieldset {
   margin-top: 0.25rem;
 }
 
+legend {
+  font-family: "Syne", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  width: 100%;
+}
+
 label {
   display: block;
   margin: 0.5rem 0;
