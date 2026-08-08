@@ -220,3 +220,11 @@ input[type="file"] {
 a {
   color: #dfdfe2;
 }
+
+/* (tout le CSS du commit #26 conservé identique, plus :) */
+
+.field-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
