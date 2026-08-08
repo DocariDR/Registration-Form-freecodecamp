@@ -46,10 +46,45 @@ body {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo-mark {
+  font-size: 2rem;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.75rem;
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--text-1);
+  line-height: 1.1;
+}
+
+.form-header p {
+  color: var(--text-2);
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
 }
 
 form {
@@ -59,18 +94,22 @@ form {
   margin: 0 auto;
   padding-bottom: 2em;
 }
+
 fieldset {
   border: none;
   padding: 2rem 0;
   border-bottom: 3px solid #3b3b4f;
 }
+
 fieldset:last-of-type {
   border-bottom: none;
 }
+
 label {
   display: block;
   margin: 0.5rem 0;
 }
+
 input,
 textarea,
 select {
@@ -78,16 +117,19 @@ select {
   width: 100%;
   min-height: 2em;
 }
+
 input,
 textarea {
   background-color: #0a0a23;
   color: #ffffff;
 }
+
 .inline {
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
+
 input[type="submit"] {
   display: block;
   width: 60%;
@@ -98,14 +140,16 @@ input[type="submit"] {
   border-color: white;
   min-width: 300px;
 }
+
 input[type="submit"]:hover {
   background-color: #5a5a7a;
   cursor: pointer;
-  transition: background-color 0.2s ease;
 }
+
 input[type="file"] {
   padding: 1px 2px;
 }
+
 a {
   color: #dfdfe2;
 }
