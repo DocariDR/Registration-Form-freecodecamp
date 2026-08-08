@@ -33,6 +33,25 @@ body {
   overflow-x: hidden;
 }
 
+.wrapper {
+  position: relative;
+  z-index: 1;
+  width: min(520px, calc(100% - 2rem));
+  margin: 3rem auto 4rem;
+  animation: fadeUp 0.5s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 form {
   width: 60vw;
   max-width: 500px;
