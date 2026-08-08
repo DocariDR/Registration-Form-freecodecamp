@@ -24,20 +24,15 @@
 }
 
 body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-color: #1b1b32;
-  color: #f5f6f7;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-size: 16px;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text-1);
+  font-family: "DM Sans", Tahoma, Geneva, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 
-h1,
-p {
-  margin: 1em auto;
-  text-align: center;
-}
 form {
   width: 60vw;
   max-width: 500px;
