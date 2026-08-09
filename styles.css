@@ -279,10 +279,6 @@ input[type="file"]:hover {
   display: none;
 }
 
-.radio-icon {
-  font-size: 1.1rem;
-}
-
 .radio-label {
   font-size: 0.9rem;
   font-weight: 500;
