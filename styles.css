@@ -38,7 +38,7 @@ body {
   z-index: 1;
   width: min(520px, calc(100% - 2rem));
   margin: 3rem auto 4rem;
-  animation: fadeUp 0.5s ease both;
+  animation: fadeUp 1s ease both;
 }
 
 @keyframes fadeUp {
@@ -56,14 +56,6 @@ body {
 .form-header {
   text-align: center;
   margin-bottom: 2rem;
-}
-
-.logo-mark {
-  font-size: 2rem;
-  color: var(--accent);
-  display: block;
-  margin-bottom: 0.75rem;
-  animation: spin 8s linear infinite;
 }
 
 @keyframes spin {
