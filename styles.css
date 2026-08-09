@@ -346,3 +346,18 @@ a:hover {
   border-top: 1px solid var(--border);
   margin-top: 1.5rem;
 }
+
+@media (max-width: 420px) {
+  .field-grid,
+  .radio-group {
+    grid-template-columns: 1fr;
+  }
+
+  fieldset {
+    padding: 1.25rem 1.25rem 0;
+  }
+
+  .form-footer {
+    padding: 1.25rem;
+  }
+}
